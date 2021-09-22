@@ -5,11 +5,14 @@ Header Text - #553100
 Main background - #D4A76A*/
 header {
   background-color: #FFDBAA;
+  display: table;
+  width: 100%;
 
 }
 button {
   background-color: #805215;
   color: white;
+
 
 }
 h1 {
@@ -20,5 +23,25 @@ body {
 }
 
 .card {
+  width: 25%;
   background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  text-align: center;
+
+}
+.column-container{
+  display: table;
+  width: 100%;
+}
+.column {
+  display: table-cell;
+}
+/* could not figure out how to make the footer card inherit the properties from the other card class, it didn't cascade how I thought it would */
+.footer-card {
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  text-align: center;
 }
