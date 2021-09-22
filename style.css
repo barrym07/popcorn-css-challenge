@@ -5,13 +5,20 @@ Header Text - #553100
 Main background - #D4A76A*/
 header {
   background-color: #FFDBAA;
+
 }
 button {
-  color: #805215;
+  background-color: #805215;
+  color: white;
+
 }
 h1 {
   color: #553100;
 }
-main {
+body {
   background-color: #D4A76A;
+}
+
+.card {
+  background-color: white;
 }
