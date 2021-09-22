@@ -5,9 +5,13 @@ Header Text - #553100
 Main background - #D4A76A*/
 header {
   background-color: #FFDBAA;
-  display: table;
+  display: inline-block;
   width: 100%;
 
+
+}
+.title{
+  font-size: xx-large;
 }
 button {
   background-color: #805215;
@@ -28,14 +32,19 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   text-align: center;
+  margin:auto;
+  padding: 10px;
 
 }
+/*
 .column-container{
   display: table;
   width: 100%;
 }
+*/
 .column {
-  display: table-cell;
+  display: flex;
+  margin: 5%;
 }
 /* could not figure out how to make the footer card inherit the properties from the other card class, it didn't cascade how I thought it would */
 .footer-card {
@@ -44,4 +53,5 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   text-align: center;
+  margin:auto;
 }
